@@ -1,0 +1,141 @@
+.Registration-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 2px;
+    row-gap: 8px;
+}
+.Registration-form-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    background: #ffffff;
+    border-radius: 6px;
+}
+.Registration-form-type li {
+    font-size: 14px;
+    padding: 6px 45px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Registration-form-type .active {
+    background-color: #007bff;
+    color: white;
+}
+.Registration-form-inputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.Registration-form-inputs div {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2px 6px 5px 6px;
+    width: 300px;
+}
+.Registration-form-inputs p {
+    font-size: 11px;
+    color: #181818;
+}
+.Registration-form-inputs div input {
+    border: none;
+    outline: none;
+    margin-top: 2.5px;
+}
+.Registration-form-pvz {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 312px;
+}
+.Registration-form-pvz p {
+    font-size: 13px;
+    background-color: white;
+    padding: 9px 10px;
+    border-radius: 6px;
+}
+.Registration-form-pvz-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 12px;
+}
+.Registration-form-pvz-checkbox svg {
+    background-color: white;
+    border-radius: 6px;
+    padding: 6.75px;
+}
+.Registration-form-marketplace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 12px;
+    background-color: white;
+    padding: 8px 0 0 0;
+    border-radius: 10px;
+}
+.Registration-form-marketplace p {
+    color: black;
+    font-size: 15px;
+    padding-bottom: 6px;
+}
+.Registration-form-marketplace-catalog {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-top: 1px solid #d4d4d4;
+}
+.Registration-form-marketplace-catalog li {
+    padding: 5px 37px 7px 37px;
+    transition: all 0.1s ease;
+}
+.Registration-form-marketplace-catalog .active {
+    background-color: #007bff;
+    color: white;
+}
+.Registration-form-marketplace-catalog .active:first-child {
+    border-bottom-left-radius: 8px;
+}
+.Registration-form-marketplace-catalog .active:nth-child(2) {
+    border-radius: 0;
+}
+.Registration-form-marketplace-catalog .active:last-child {
+    border-bottom-right-radius: 8px;
+}
+.Registration-form #registration-rating {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 312px;
+}
+.Registration-form #registration-create-profile {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 84.35px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.Registration-form #registration-create-policy {
+    color: white;
+    width: 300px;
+    font-size: 11px;
+    text-align: center;
+}

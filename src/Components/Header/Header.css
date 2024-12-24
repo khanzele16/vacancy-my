@@ -1,0 +1,22 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    position: relative;
+    height: 40px;
+}
+.Header svg {
+    position: absolute;
+    top: 10px;
+    left: 4px;
+}
+.Header h3 {
+    font-size: 26px;
+    color: #0c387a;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
